@@ -12,6 +12,7 @@ public class CheckIfArrayIsSorted {
 			}
 		}
 System.err.println(isSorted);
+		System.err.println(isSorted);
 	}
 
 }
