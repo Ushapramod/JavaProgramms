@@ -9,7 +9,7 @@ public class CheckIfStringContainsOnlyDigits {
 
 	public static void main(String[] args) {
 		
-		String numbers = "123456r";
+		String numbers = "123456";
 		boolean isOnlyDigits = true;
 		
 		for (int i = 0; i < numbers.length(); i++) {
@@ -19,6 +19,5 @@ public class CheckIfStringContainsOnlyDigits {
 			}
 			
 		}
-		System.out.println(isOnlyDigits);
 	}
 }
