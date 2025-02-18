@@ -6,6 +6,7 @@ public class RemoveSplCharactersFromString {
 		String price = "89,333.00";
 		String newPrice = price.replaceAll("[,\\.]", "");
 		System.out.println(newPrice);
+
 	}
 
 }
