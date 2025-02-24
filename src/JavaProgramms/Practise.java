@@ -26,6 +26,12 @@ for (int i = 0; i < arr.length; i++) {
 		temp[index++] += arr[i];
 	}
 	System.out.println("hi usha");
+	System.out.println("hi usha");
+	
+	System.out.println("hi usha");
+	
+	System.out.println("hi usha");
+	
 	
 }
 
