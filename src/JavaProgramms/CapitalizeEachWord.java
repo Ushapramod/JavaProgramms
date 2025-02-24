@@ -16,7 +16,6 @@ public class CapitalizeEachWord {
 			
 		}
 		System.out.println(buffer);
-		System.out.println(buffer);
 	}
 
 }

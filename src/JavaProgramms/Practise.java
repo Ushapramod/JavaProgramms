@@ -5,24 +5,31 @@ import java.util.*;
 import java.util.*;
 
 public class Practise {
-	private String name;
-	private int age;
-	
-	
-	public Practise(String name,int age)
-	{
-		this.name = name;
-		this.age=age;
-	}
-	
-	
-	public void DisplayInfo()
-	{
-		System.out.println(name);
-		System.out.println(age);
-	}
-	
+
 	public static void main(String[] args) {
+int[] arr= {1,2,2,1,3,3,4,4,5,5};
+int[] temp=new int[arr.length];
+int index =0;
+
+for (int i = 0; i < arr.length; i++) {
+	
+	boolean isSame= false;
+	
+	for (int j = 0; j < index; j++) {
+		if(arr[i]==temp[j])
+		{ isSame=true;}
 		
 	}
+
+	if(!isSame)
+	{
+		temp[index++] += arr[i];
+	}
+	
+	
+}
+
+System.out.println(Arrays.toString(temp));
+	}
+
 }
